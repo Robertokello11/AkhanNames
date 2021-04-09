@@ -2,18 +2,36 @@ body {
     background-image: url("/images/img_nature_wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: sepia();
-    opacity: 80%;
+    opacity: 70%;
+
 }
 
 .image {
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 10px grey;
 
+
 }
 .About{
-    color:burlywood;
+
     font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
 }
+p{
+    width: 50%;
+}
+h1{
+    color:rgb(14, 221, 104);
+}
+h3{
+    color: skyblue;
+    font-size: 23px;
+}
+.container{
+    background-color:white;
+    filter: hue-rotate();
+}
+
