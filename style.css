@@ -32,6 +32,5 @@ h3{
 }
 .container{
     background-color:white;
-    filter: hue-rotate();
 }
 
