@@ -4,5 +4,13 @@ body{
     background-size: cover;
     filter:sepia();
     opacity: 80%;
+
    
 }
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
