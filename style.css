@@ -4,6 +4,7 @@ body {
     background-size: cover;
     opacity: 70%;
 
+
 }
 
 .image {
@@ -19,18 +20,35 @@ body {
     font-size: 20px;
     font-style: italic;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 p{
     width: 50%;
 }
 h1{
     color:rgb(14, 221, 104);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 h3{
     color: skyblue;
     font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 .container{
     background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Form{
+  width: 20%;
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
