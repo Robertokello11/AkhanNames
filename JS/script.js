@@ -7,7 +7,7 @@ function fillter() {
     var year = parseInt(document.getElementById("year").value);
     var Date = parseInt(document.getElementById("Date").value);
     console.log(Date)
-    var d = new Date(year, month,day);
+    var d = new Date(year, month, day);
     var gender = print();
     var day2 = d.get.day();
     console.log(day2)
