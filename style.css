@@ -1,9 +1,11 @@
+
 body {
     background-image: url("/images/img_nature_wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 70%;
-    border:3px solid black;
+    background-attachment: fixed;
+
 
 
 }
@@ -13,7 +15,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px 1px 6px 4px grey;
-
+    text-align: center;
+    display: block;
 
 }
 
@@ -36,6 +39,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    text-align: center;
 }
 
 h3 {
@@ -44,12 +48,17 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    text-align: center;
 }
 
 .container {
-    background-color: white;
+    background-color:white;
     margin-left: auto;
     margin-right: auto;
+    background-position: center;
+
+    
+
 }
 
 #Form {
@@ -96,5 +105,9 @@ h3 {
     margin-right: auto;
     text-align: center;
 }
-
-
+p{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
