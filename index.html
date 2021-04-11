@@ -25,61 +25,59 @@
                 Middle names have considerably more variety and can refer to their birth order,
                 twin status, or an <em>ancestor's</em> middle name.</p>
             <img class="image" src="/images/8116479954_21ac640dea_h.jpg" alt="Cultural naming" width="40%">
+            <p>Get more @ <a href="https://en.wikipedia.org/wiki/Akan_names">More Info</a></span></p>
+
             <!-- <p>Most Ghanaians have at least one name from this system, even if they also have an English or Christian
                 name.
                 Notable figures with day names include <span>Ghana's first president Kwame Nkrumah and former United
                     Nations
-                    Secretary-General Kofi Annan. Get more about Akhan names.--><a
-                href="https://en.wikipedia.org/wiki/Akan_names">More Info</a></span></p>
+                    Secretary-General Kofi Annan. Get more about Akhan names.-->
 
             <h3>Fill your Details here to get your Akhan Name </h3>
 
-        </div>
-        <div id="Form">
-            <div class="row">
-                <div class="col-25">
-                    <label class="form" for="number">YEAR OF BIRTH</label>
-                </div>
-                <div class="col-75">
-                    <input type="number" id="year" placeholder="Year of birth" name="year" required>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-25">
-                    <label class="form" for="number">MONTH OF BIRTH</label>
-                </div>
-                <div class="col-75">
-                    <input type="number" id="Month" placeholder="Month of BIrth" name="month" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label class="form" for="number">DATE OF BIRTH</label>
-                </div>
-                <div class="col-75">
-                    <input type="number" id="Date" placeholder="Date of Birth" name="date" required>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label class="form" for="number">GENDER</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="radio" class="form-check-input" name="gender" id="male" required>&nbsp; Male</br>
-                    </div>
-                    <div class="col-25">
-                        <input type="radio" class="form-check-input" name="gender" id="female" required>&nbsp;
-                        Female<br>
-                    </div>
-
-                    <div class="col-75">
-                        <button type="submit" onclick="fillter(); " class="btn btn-primary btn-xs" aria-hidden="false">Get Akan Name</button>
-                        <button type="reset" onclick="fillter(); " class="btn btn-default btn-xs">Cancel</button>
-                    </div>
-                </div>
-            </div>
 
         </div>
+        <div class="Form">
+            <form class="myform" onsubmit="return getAkanName()">
+                <label for="Year of Birth">
+                    Year:
+                    <input id="year-input" type="number" name="year-of-birth" placeholder="Year-of-birth" value=""
+                        required>
+                </label><br>
+                <label for="Month of Birth">
+                    Month:
+                    <input id="month-input" type="number" name="month-of-birth" placeholder="Month-of-birth"
+                        value="" required>
+                </label><br>
+                <label for="Day of Birth">
+                    Day:
+                    <input id="day-input" type="number" name="day-of-birth" placeholder="Day-of-birth" value=""
+                        required>
+                </label>
+                <br>
+                <label for="Gender">
+                    <p>select Gender: </p>
+                    Male
+                    <input id="male-input" type="radio" name="gender" value="male" required><br>
+                    Female
+                    <input id="female-input" type="radio" name="gender" value="female" required>
+
+                </label>
+                <br><br>
+                <input class="button1" type="submit" name="" value="Get Akan Name &#8594;">
+                <br><br>
+            </form>
+            <form onsubmit="return clearInput()">
+                <input class="button1" type="submit" value="Retry">
+            </form>
+
+            <div style="border: solid #29f154;" >
+                <h2 id=display-name><strong>This is your Akan Name &darr;:</strong></h2>
+                <h1 id="result"></h1>
+            </div>
+        </div>
+
         <script src="JS/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
             integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
@@ -87,6 +85,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
             integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
         </script>
+
 </body>
 
 </html>
