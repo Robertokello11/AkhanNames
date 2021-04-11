@@ -77,13 +77,15 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-#display-name{
+
+#display-name {
     font-size: larger;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-#result{
+
+#result {
     font-size: 23px;
     color: cornflowerblue;
 }
